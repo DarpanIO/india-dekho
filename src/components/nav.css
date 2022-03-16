@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav>ul,.nav>img{
+    align-items: left;
+    padding: 14px 0px;
+    margin: 0px 10vw;
+}
+li{
+    display: inline;
+    margin: 10px 10px 5px 0px;
+    padding: 2px;
+    
+}
+.nav,a{
+    background-color: rgb(255, 196, 0);
+    color: white;
+    text-decoration: none;
+    font-family:  Ubuntu,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 550;
+    
+}
+ul li a {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+  ul li a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: center;
+    text-decoration: none;
+  }
+  ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+  }

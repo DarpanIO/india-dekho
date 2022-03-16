@@ -1,0 +1,41 @@
+.heading{
+    background-color: rgb(255, 196, 0);
+    padding: 3px 5px;
+    color: white;
+}
+.culture-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.culture-item{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+
+}
+.culture-item img{
+    width: inherit;
+    height: inherit;
+}
+.culture-item .culture-name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.culture-item:hover .culture-name{
+    /* width: 150px; */
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+   }
