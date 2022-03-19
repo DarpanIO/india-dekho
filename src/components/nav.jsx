@@ -1,16 +1,19 @@
 import React from "react";
 import './nav.css';
-import { Outlet, Link } from "react-router-dom";
+import { Link,BrowserRouter } from "react-router-dom";
 function Nav() {
     return(
 <div class="nav">
+<BrowserRouter>
+
 <img src="#" class="logo" alt="My Country" />
     <ul type= 'none'>
-    {/* <li><Link to="/">Home</Link></li> */}
-    <li><a href="#">Blog</a></li>
+    <li><Link to="/home">Home</Link></li>
+    <li><Link to="/museum">Blog</Link></li>
     <li><a href="#">About Us</a></li>
     </ul>
     {/* <Outlet /> */}
+</BrowserRouter>
     </div>
     );
 }
