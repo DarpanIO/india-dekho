@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.bodybg{
+  background: antiquewhite url("../res/indiabg.png") no-repeat;
+  background-position: top 500px;
+ background-size:100vw ;
+
+}
+.body-container{
+  margin: 0vh 10vw;
+  background: url(../res/flow-top-bg-bottom.png) repeat-x;
+  background-color: white;
+  min-height: 20vh;
+  box-shadow: 0px 5px 4px 5px rgba(0, 0, 0, 0.267) ;
+  padding: 60px 30px;
+}

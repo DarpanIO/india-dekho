@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 .heading{
-    background-color: rgb(255, 196, 0);
+    color: rgb(255, 196, 0);
     padding: 3px 5px;
-    color: white;
+    text-align: center;
+    font-family:  Ubuntu,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.heading img{
+    display:block;
+    margin: auto;
 }
 .culture-items{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .culture-item{
     position: relative;
@@ -33,6 +42,7 @@
     -webkit-transition: visibility 0s, opacity 0.5s linear; 
     transition: visibility 0s, opacity 0.5s linear;
 }
+
 .culture-item:hover .culture-name{
     /* width: 150px; */
     padding: 8px 15px;

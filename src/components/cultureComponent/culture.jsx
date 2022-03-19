@@ -15,6 +15,7 @@ function Culture(){
         <div>
             <div className="heading">
                 Our Culture
+                <img src={require('../res/divider.png')} />
             </div>
             <div className="culture-items">
                 {cultures.map(createCard)}
