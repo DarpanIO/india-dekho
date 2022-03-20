@@ -15,7 +15,7 @@ li{
     padding: 2px;
     
 }
-.nav,a{
+.nav,.nav a{
     background-color: #EF9A0E;
     color: white;
     text-decoration: none;
