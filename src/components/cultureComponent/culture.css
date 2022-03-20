@@ -26,8 +26,8 @@
 
 }
 .culture-item img{
-    width: inherit;
-    height: inherit;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
 }
 .culture-item .culture-name{
     position: absolute;

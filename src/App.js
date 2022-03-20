@@ -10,9 +10,6 @@ function App() {
      <Nav />
      <div className="bodybg">
     <div className="body-container">
-
-    <BrowserRouter>
-
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -21,7 +18,6 @@ function App() {
           {/* <Route path="contact" element={<Contact />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}
       </Routes>
-    </BrowserRouter>
     </div>
     </div>
     </div>

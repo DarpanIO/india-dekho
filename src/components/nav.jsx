@@ -4,7 +4,7 @@ import { Link,BrowserRouter } from "react-router-dom";
 function Nav() {
     return(
 <div class="nav">
-<BrowserRouter>
+
 
 <img src="#" class="logo" alt="My Country" />
     <ul type= 'none'>
@@ -13,7 +13,7 @@ function Nav() {
     <li><a href="#">About Us</a></li>
     </ul>
     {/* <Outlet /> */}
-</BrowserRouter>
+
     </div>
     );
 }
