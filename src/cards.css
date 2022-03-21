@@ -1,0 +1,6 @@
+.wide-card{
+    display: flex;
+}
+.wide-card img{
+    height: 200px;
+}

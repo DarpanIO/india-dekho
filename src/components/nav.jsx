@@ -9,7 +9,7 @@ function Nav() {
 <img src="#" class="logo" alt="My Country" />
     <ul type= 'none'>
     <li><Link to="/home">Home</Link></li>
-    <li><Link to="/museum">Blog</Link></li>
+    <li><Link to="/culture/museum">Blog</Link></li>
     <li><a href="#">About Us</a></li>
     </ul>
     {/* <Outlet /> */}
