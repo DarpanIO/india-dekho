@@ -4,6 +4,7 @@ import Nav from './components/nav.jsx'
 import './App.css';
 import Home from './components/home';
 import Museum from './components/cultureComponent/museum/museum';
+import MuseumArticle from './components/cultureComponent/museum/MuseumArticle';
 import MuseumArticleContent from './components/cultureComponent/museum/museumArticleContent';
 import Slider from './components/Slider/Slider';
 import { BrowserRouter, Routes, Route, Navigate,useLocation} from "react-router-dom";
@@ -22,7 +23,7 @@ function App() {
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/" element={<Navigate to="/home" />} />
           <Route exact path="/culture/museum" element={<Museum />} />
-          <Route exact path="/culture/museum/:id" element={<MuseumArticleContent />} />
+          <Route exact path="/culture/museum/:id" element={< MuseumArticleContent/>} />
           {/* <Route path="blogs" element={<Blogs />} /> */}
           {/* <Route path="contact" element={<Contact />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}

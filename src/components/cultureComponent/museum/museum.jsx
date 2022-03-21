@@ -9,6 +9,7 @@ function createCard(card){
       img={card.img}
       name={card.name}
       description={card.description}
+      path={"/culture/museum/"+card.id}
     /> ;
     }
 
