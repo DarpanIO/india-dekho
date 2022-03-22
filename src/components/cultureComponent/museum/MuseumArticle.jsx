@@ -1,17 +1,12 @@
 import React from "react";
-
+import '../../../content.css';
 
 function MuseumArticle(props){
-    // console.log(this.props);
-    // console.log(props.key);
-//  const {state}=useLocation();
-//  console.log(state.item.id);
-
 return(       
-     <div className="wide-card">
-    <div><img src={props.img}/></div>
-    <div className="wide-card-text">
+     <div>
     <h3>{props.name}</h3>
+    <div><img src={props.img} className="main-content-image" alt={props.name}/></div>
+    <div className="wide-card-text">
     <h5>{props.description}</h5>
     </div>
 
