@@ -23,7 +23,8 @@ function App() {
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/" element={<Navigate to="/home" />} />
           <Route exact path="/culture/museum" element={<Museum />} />
-          <Route exact path="/culture/museum/:id" element={< MuseumArticleContent/>} />
+          {/* <Route exact path="/culture/museum/:id" element={<MuseumArticle />} /> */}
+          <Route exact path="/culture/museum/:id" element={<MuseumArticleContent />} />
           {/* <Route path="blogs" element={<Blogs />} /> */}
           {/* <Route path="contact" element={<Contact />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}

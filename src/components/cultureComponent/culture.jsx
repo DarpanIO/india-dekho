@@ -4,7 +4,7 @@ import CultureCard from "./culturecard";
 import cultures from "./cultures";
 import { Outlet, Link } from "react-router-dom";
 function createCard(card){
-  
+//   console.log(card);
     return <CultureCard 
       key={card.id}
       img={card.img}

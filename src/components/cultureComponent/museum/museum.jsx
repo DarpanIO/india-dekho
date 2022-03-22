@@ -4,6 +4,7 @@ import MuseumCard from "./museumCard";
 import museums from "./museums";
 
 function createCard(card){
+    console.log(card);
     return <MuseumCard 
       key={card.id}
       img={card.img}
