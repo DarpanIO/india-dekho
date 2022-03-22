@@ -2,7 +2,7 @@ import React from "react";
 import museums from "./museums";
 import MuseumArticle from "./MuseumArticle";
 import MuseumCard from "./museumCard";
-import {useLocation} from "react-router-dom";
+import {useParams} from "react-router-dom";
 
 function createArticle(card){
     return <MuseumArticle
@@ -14,12 +14,17 @@ function createArticle(card){
     }
 
 function MuseumArticleContent() {
-    const { state } = useLocation();
-    // console.log(state);
+    const { id } = useParams();
+    console.log(id);
+    // console.log(museums[id]);
+    console.log(museums[id-1]);
+    var index =id-1;
+
     return(
         <div>
         <div className="heading-center">
-            {museums.map(createArticle)}
+            {createArticle(museums[index])}
+            {/* {museums.map(createArticle)} */}
         </div>
         </div>
     );
