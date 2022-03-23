@@ -1,7 +1,7 @@
 import React from "react";
 import '../cards.css';
 import { Link } from "react-router-dom";
-function SegmentCard(props) {
+function SubSegmentCard(props) {
     return (
         <div className="wide-card">
         <Link to={props.path}>
@@ -16,4 +16,4 @@ function SegmentCard(props) {
     );
 }
 
-export default SegmentCard;
+export default SubSegmentCard;

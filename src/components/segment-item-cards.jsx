@@ -1,7 +1,7 @@
 import React from "react";
-import "../../cards.css";
+import "../cards.css";
 import { Link,BrowserRouter } from "react-router-dom";
-function CultureCard(props) {
+function SegmentCard(props) {
   return (
     <div className="long-card-item">
     {/* <BrowserRouter> */}
@@ -9,7 +9,10 @@ function CultureCard(props) {
 
     <Link to={props.path}>
       <img src={props.img}></img>
-      <div className="long-card-item">{props.name}</div>
+      <div>{props.name}</div>
+      {props.description.length>0 && <div>{props.description.substr(1,40)}</div>}
+      
+
     </Link>
 
     {/* </BrowserRouter> */}
@@ -17,4 +20,4 @@ function CultureCard(props) {
     </div>
   );
 }
-export default CultureCard;
+export default SegmentCard;

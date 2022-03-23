@@ -2,17 +2,18 @@ import React from "react";
 // import './culture.css';
 import '../../cards.css'
 import '../../App.css'
-import CultureCard from "./culturecard";
+import SegmentCard from "../segment-item-cards";
 import cultures from "./cultures";
 import Museum from "./museum/museum";
 import { Outlet, Link, Routes, Route } from "react-router-dom";
 function createCard(card){
 //   console.log(card);
-    return <CultureCard 
+    return <SegmentCard 
       key={card.id}
       img={card.img}
       name={card.name}
       path={card.path}
+      description={""}
     /> ;
     }
 function CultureHome(){
