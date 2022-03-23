@@ -15,16 +15,27 @@ function createCard(card){
       path={"/culture/museum/"+card.id}
     /> ;
     }
+function MuseumsPage() {
+    return(
 
+        <div className="heading-center">
+    <div className="segment-heading">
+            <h1>Museums</h1>
+            <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
+        </div>
+        {museums.map(createCard)}
+
+        </div>
+        );
+}
     function Museum() {
     return (
 
 
         <div className="heading-center">
-
             
             <Routes>
-            <Route exact path="/" element={museums.map(createCard)} />
+            <Route exact path="/" element={<MuseumsPage />} />
             <Route exact path=":id" element={<MuseumArticleContent />} />
             </Routes>
 
