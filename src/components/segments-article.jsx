@@ -1,7 +1,7 @@
 import React from "react";
-import '../../../content.css';
+import '../content.css';
 
-function MuseumArticle(props){
+function SegmentArticle(props){
 return(       
      <div>
     <h3>{props.name}</h3>
@@ -13,4 +13,4 @@ return(
 </div>);
 }
 
-export default MuseumArticle;
+export default SegmentArticle;

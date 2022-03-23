@@ -1,10 +1,10 @@
 import React from "react";
 import museums from "./museums";
-import MuseumArticle from "./MuseumArticle";
+import SegmentArticle from "../../segments-article";
 import {useParams} from "react-router-dom";
 
 function createArticle(card){
-    return <MuseumArticle
+    return <SegmentArticle
       key={card.id}
       img={card.img}
       name={card.name}

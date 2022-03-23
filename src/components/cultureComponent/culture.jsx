@@ -1,8 +1,11 @@
 import React from "react";
-import './culture.css';
+// import './culture.css';
+import '../../cards.css'
+import '../../App.css'
 import CultureCard from "./culturecard";
 import cultures from "./cultures";
-import { Outlet, Link } from "react-router-dom";
+import Museum from "./museum/museum";
+import { Outlet, Link, Routes, Route } from "react-router-dom";
 function createCard(card){
 //   console.log(card);
     return <CultureCard 
@@ -12,17 +15,25 @@ function createCard(card){
       path={card.path}
     /> ;
     }
+function CultureHome(){
+return(
+    <div>
+    <div className="segment-heading">
+       Our Culture
+        <img src={require('../res/divider.png')} />
+    </div>
+    <div className="long-card-items">
+        {cultures.map(createCard)}
+    </div>
+</div>
+);
+}
 function Culture(){
     return(
-        <div>
-            <div className="heading">
-               Our Culture
-                <img src={require('../res/divider.png')} />
-            </div>
-            <div className="culture-items">
-                {cultures.map(createCard)}
-            </div>
-        </div>
+<Routes>
+    <Route exact path="/" element={<CultureHome />} />
+    <Route exact path="/Museum/*" element={<Museum />} />
+</Routes>
     );
 }
 export default Culture;

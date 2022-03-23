@@ -1,8 +1,7 @@
 import React from "react";
-import museums from "./museums";
-import '../../../cards.css';
+import '../cards.css';
 import { Link } from "react-router-dom";
-function MuseumCard(props) {
+function SegmentCard(props) {
     return (
         <div className="wide-card">
         <Link to={props.path}>
@@ -17,4 +16,4 @@ function MuseumCard(props) {
     );
 }
 
-export default MuseumCard;
+export default SegmentCard;

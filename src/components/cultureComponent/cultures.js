@@ -3,7 +3,7 @@ const cultures=[
         id:1,
         name:"MUSEUMS",
         img:"https://www.tourmyindia.com/blog//wp-content/uploads/2021/06/Popular-Museums-in-India.jpg" ,
-        path:"/culture/museum"      
+        path:"/culture/Museum"      
     },
     {
         id:2,

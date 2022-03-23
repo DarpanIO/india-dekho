@@ -1,14 +1,13 @@
 import React from "react";
 import { Routes,Route } from "react-router-dom";
 import '../../../content.css';
-import '../../body.css';
-import MuseumCard from "./museumCard";
+import SegmentCard from "../../segments-item-cards";
 import museums from "./museums";
 import MuseumArticleContent from "./museumArticleContent";
 
 function createCard(card){
     console.log(card);
-    return <MuseumCard 
+    return <SegmentCard 
       key={card.id}
       img={card.img}
       name={card.name}
@@ -20,11 +19,12 @@ function createCard(card){
     function Museum() {
     return (
 
-<div className="bodybg">
-    <div className="body-container">
+
         <div className="heading-center">
+        <div className="segment-heading">
             <h1>Museums</h1>
             <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
+        </div>
 
             
             <Routes>
@@ -32,8 +32,6 @@ function createCard(card){
             <Route exact path=":id" element={<MuseumArticleContent />} />
             </Routes>
 
-        </div>
-        </div>
         </div>
     );
 }

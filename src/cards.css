@@ -4,3 +4,21 @@
 .wide-card img{
     height: 200px;
 }
+.long-card-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.long-card-item{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+
+}
+.long-card-item img{
+    width: 200px;
+    /* height: -webkit-fill-available; */
+}
