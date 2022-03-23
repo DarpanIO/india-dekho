@@ -1,11 +1,11 @@
 import React from "react";
 // import './culture.css';
-import '../../cards.css'
-import '../../App.css'
-import SegmentCard from "../segment-item-cards";
+import '../../../cards.css'
+import '../../../App.css'
+import SegmentCard from "../../segment-item-cards";
 import cultures from "./cultures";
 import Museum from "./museum/museum";
-import { Outlet, Link, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 function createCard(card){
 //   console.log(card);
     return <SegmentCard 
@@ -21,7 +21,7 @@ return(
     <div>
     <div className="segment-heading">
        Our Culture
-        <img src={require('../res/divider.png')} />
+        <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
     </div>
     <div className="long-card-items">
         {cultures.map(createCard)}

@@ -1,5 +1,6 @@
 import React from "react";
-import Culture from "./cultureComponent/culture";
+import Culture from "./segments/culture/culture";
+import Story from "./segments/stories/story";
 import Slider from "./Slider/Slider";
 function Home() {
   return (
@@ -7,7 +8,7 @@ function Home() {
       <Slider />
 
       <Culture />
-      {/* <Stories /> */}
+      <Story />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import museums from "./museums";
-import SegmentArticle from "../../segments-article";
+import SegmentArticle from "../../../segments-article";
 import {useParams} from "react-router-dom";
 
 function createArticle(card){

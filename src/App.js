@@ -1,9 +1,9 @@
 import React from "react";
-import Nav from "./components/nav.jsx";
+import Nav from "./components/navigation/nav.jsx";
 import "./App.css";
 import Home from "./components/home";
-import Culture from "./components/cultureComponent/culture"
-import Museum from "./components/cultureComponent/museum/museum";
+import Story from "./components/segments/stories/story.jsx";
+import Culture from "./components/segments/culture/culture.jsx";
 import {
   Routes,
   Route,
@@ -21,6 +21,7 @@ function App() {
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/" element={<Navigate to="/home" />} />
         <Route exact path="/culture/*" element={<Culture />} />
+        <Route exact path="/stories/*" element={<Story />} />
       </Routes>
     </div>
 </div>

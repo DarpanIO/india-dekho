@@ -4,7 +4,10 @@ import '../content.css';
 function SegmentArticle(props){
 return(       
      <div>
-    <h3>{props.name}</h3>
+    <div className="segment-heading">
+            <h1>{props.name}</h1>
+            <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
+        </div>
     <div><img src={props.img} className="main-content-image" alt={props.name}/></div>
     <div className="wide-card-text">
     <h5>{props.description}</h5>
