@@ -10,6 +10,7 @@ function Nav() {
     <ul type= 'none'>
     <li><Link to="/home">Home</Link></li>
     <li><Link to="/culture/museum">Blog</Link></li>
+    <li><Link to="/culture/museum">Indian States</Link></li>
     <li><a href="#">About Us</a></li>
     </ul>
     {/* <Outlet /> */}

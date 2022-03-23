@@ -37,8 +37,8 @@
     color: white;
     margin-bottom: 5px;
     font-family: sans-serif;
-    opacity: 0;
-    visibility: hidden;
+    /* opacity: 0; */
+    /* visibility: hidden; */
     -webkit-transition: visibility 0s, opacity 0.5s linear; 
     transition: visibility 0s, opacity 0.5s linear;
 }

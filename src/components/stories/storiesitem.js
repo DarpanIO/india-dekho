@@ -1,8 +1,8 @@
 const storiesitem=[
     {
         id:1,
-        name:"MUSEUMS",
-        img:"https://www.tourmyindia.com/blog//wp-content/uploads/2021/06/Popular-Museums-in-India.jpg"       
+        name:"Jallianwala Bagh",
+        img:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Jallianwala_Bagh%2C_Amritsar_01.jpg/330px-Jallianwala_Bagh%2C_Amritsar_01.jpg"       
     },
     {
         id:2,

@@ -8,6 +8,7 @@ function createCard(card){
       key={card.id}
       img={card.img}
       name={card.name}
+      path={"/stories/"+card.id}
     /> ;
     }
 function Stories(){

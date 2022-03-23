@@ -21,7 +21,7 @@ const cultures=[
         id:4,
         name: "MUSIC & DANCE",
         img:"https://www.indianeagle.com/travelbeats//wp-content/uploads/2013/10/soorya-dance-festival-overview.jpg?w=547",
-        path:"/culture/monuments"
+        path:"/culture/music&dance"
     }
 ];
 export default cultures;

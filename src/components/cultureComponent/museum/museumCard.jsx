@@ -9,7 +9,7 @@ function MuseumCard(props) {
             <div><img src={props.img}/></div>
             <div className="wide-card-text">
             <h3>{props.name}</h3>
-            <h5>{props.description}</h5>
+            <h5>{props.description.substr(1,50) +"..."}</h5>
             </div>
         </Link>
 
