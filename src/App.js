@@ -7,6 +7,8 @@ import IndianStates from "./components/indian-states/indian-states.jsx";
 import AboutUs from "./components/about-us/about-us.jsx";
 import Story from "./components/segments/stories/story.jsx";
 import Culture from "./components/segments/culture/culture.jsx";
+import Cuisine from "./components/segments/cuisines/cuisine.jsx";
+import Epic from "./components/segments/Epics/epic.jsx";
 import {
   Routes,
   Route,
@@ -28,6 +30,8 @@ function App() {
         <Route exact path="/" element={<Navigate to="/home" />} />
         <Route exact path="/culture/*" element={<Culture />} />
         <Route exact path="/stories/*" element={<Story />} />
+        <Route exact path="/cuisines/*" element={<Cuisine />} />
+        <Route exact path="/epics/*" element={<Epic />} />
       </Routes>
     </div>
 </div>
