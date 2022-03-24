@@ -20,5 +20,6 @@
 }
 .long-card-item img{
     width: 200px;
+    height: 200px;
     /* height: -webkit-fill-available; */
 }

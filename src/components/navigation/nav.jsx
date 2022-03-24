@@ -1,6 +1,6 @@
 import React from "react";
 import './nav.css';
-import { Link,BrowserRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Nav() {
     return(
 <div class="nav">
@@ -9,9 +9,10 @@ function Nav() {
 <img src="#" class="logo" alt="My Country" />
     <ul type= 'none'>
     <li><Link to="/home">Home</Link></li>
-    <li><Link to="/culture/museum">Blog</Link></li>
-    <li><Link to="/culture/museum">Indian States</Link></li>
-    <li><a href="#">About Us</a></li>
+    <li><Link to="/blog">Blog</Link></li>
+    <li><Link to="/indian-states">Indian States</Link></li>
+    <li><Link to="/about-us">About Us</Link></li>
+
     </ul>
     {/* <Outlet /> */}
 

@@ -13,7 +13,7 @@ function createCard(card){
       img={card.img}
       name={card.name}
       path={"/stories/"+card.id}
-      description={""}
+      description={card.description}
     /> ;
     }
 function StoryHome(){

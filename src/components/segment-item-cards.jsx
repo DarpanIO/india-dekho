@@ -1,6 +1,6 @@
 import React from "react";
 import "../cards.css";
-import { Link,BrowserRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 function SegmentCard(props) {
   return (
     <div className="long-card-item">
@@ -8,9 +8,9 @@ function SegmentCard(props) {
 
 
     <Link to={props.path}>
-      <img src={props.img}></img>
+      <img src={props.img} alt={props.name}></img>
       <div>{props.name}</div>
-      {/* {props.description.length>0 && <div>{props.description.substr(1,40)}</div>} */}
+      {props.description.__html.length>0 && <div>{props.description.__html.substr(1,20)+"..."}</div>}
       
 
     </Link>

@@ -13,7 +13,7 @@ function createCard(card){
       img={card.img}
       name={card.name}
       path={card.path}
-      description={""}
+      description={card.description}
     /> ;
     }
 function CultureHome(){
