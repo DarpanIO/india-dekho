@@ -13,13 +13,13 @@
 .long-card-item{
     position: relative;
     width: 200px;
-    height: 200px;
+    height: 240px;
     float: left;
     margin: 10px;
 
 }
 .long-card-item img{
     width: 200px;
-    height: 240px;
+    height: 200px;
     /* height: -webkit-fill-available; */
 }
