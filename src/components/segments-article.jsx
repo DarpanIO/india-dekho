@@ -10,7 +10,8 @@ return(
         </div>
     <div><img src={props.img} className="main-content-image" alt={props.name}/></div>
     <div className="wide-card-text">
-    <h5>{props.description}</h5>
+    {/* <h5>{props.description}</h5> */}
+    <div dangerouslySetInnerHTML={props.description}></div>
     </div>
 
 </div>);

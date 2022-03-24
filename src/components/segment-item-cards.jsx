@@ -10,7 +10,7 @@ function SegmentCard(props) {
     <Link to={props.path}>
       <img src={props.img}></img>
       <div>{props.name}</div>
-      {props.description.length>0 && <div>{props.description.substr(1,40)}</div>}
+      {/* {props.description.length>0 && <div>{props.description.substr(1,40)}</div>} */}
       
 
     </Link>
