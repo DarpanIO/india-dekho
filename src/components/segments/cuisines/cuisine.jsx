@@ -10,7 +10,7 @@ function createCard(card){
 //   console.log(card);
     return <SegmentCard 
       key={card.id}
-      img={card.img}
+      img={process.env.PUBLIC_URL + card.img}
       name={card.name}
       path={card.path}
       description={card.description}
