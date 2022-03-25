@@ -5,6 +5,7 @@ import SegmentCard from "../../segment-item-cards";
 import heritages from "./heritages";
 import Museum from "./museum/museum";
 import Monument from "./monument/monument";
+import Fort from "./forts/fort";
 import { Routes, Route } from "react-router-dom";
 function createCard(card){
 //   console.log(card);
@@ -35,6 +36,7 @@ function Heritage(){
     <Route exact path="/" element={<HeritageHome />} />
     <Route exact path="/museum/*" element={<Museum />} />
     <Route exact path="/monuments/*" element={<Monument />} />
+    <Route exact path="/forts/*" element={<Fort />} />
 </Routes>
     );
 }

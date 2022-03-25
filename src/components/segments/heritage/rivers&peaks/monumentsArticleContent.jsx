@@ -1,5 +1,5 @@
 import React from "react";
-import museums from "./museums";
+import monuments from "./monuments";
 import SegmentArticle from "../../../segments-article";
 import {useParams} from "react-router-dom";
 
@@ -12,13 +12,13 @@ function createArticle(card){
     /> ;
     }
 
-function MuseumArticleContent() {
+function MonumentsArticleContent() {
     const { id } = useParams();
     var index =id-1;
     return(
         <div>
-            {createArticle(museums[index])}
+            {createArticle(monuments[index])}
         </div>
     );
 }
-export default MuseumArticleContent;
+export default MonumentsArticleContent;

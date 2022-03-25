@@ -8,10 +8,10 @@ return(
             <h1>{props.name}</h1>
             <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
         </div>
-    <div><img src={props.img} className="main-content-image" alt={props.name}/></div>
+    <div className="main-content-image"><img src={props.img} alt={props.name}/></div>
     <div className="wide-card-text">
     {/* <h5>{props.description}</h5> */}
-    <div dangerouslySetInnerHTML={props.description}></div>
+    <div dangerouslySetInnerHTML={props.description} className="article-description"></div>
     </div>
 
 </div>);
