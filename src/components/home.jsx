@@ -6,6 +6,8 @@ import Cuisine from "./segments/cuisines/cuisine";
 import Slider from "./Slider/Slider";
 import History from "./segments/historyOfIndia/history";
 import Festival from "./segments/festivals/festival";
+import Sector from "./segments/sectors/sector";
+import PeaceTime from "./segments/peacetime-awards/peaceTime";
 function Home() {
   return (
     <div>
@@ -16,6 +18,8 @@ function Home() {
       <Cuisine />
       <Epic />
       <Festival />
+      <Sector />
+      <PeaceTime />
     </div>
   );
 }
