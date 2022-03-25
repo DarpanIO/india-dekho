@@ -1,9 +1,21 @@
 const peaceTimeAwards=[
     {
         id:1,
-        name:"Primary",
-        img:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Jallianwala_Bagh%2C_Amritsar_01.jpg/330px-Jallianwala_Bagh%2C_Amritsar_01.jpg" ,
-        description: {__html: "Jallianwala Bagh is a historic garden and ‘memorial of national importance’ close to the Golden Temple complex in Amritsar, Punjab, India, preserved in the memory of those wounded and killed in the Jallianwala Bagh Massacre that occurred on the site on the festival of Baisakhi, 13 April 1919. The 7-acre (28,000 m2) site houses a museum, gallery and several memorial structures. It is managed by the Jallianwala Bagh National Memorial Trust. It was renovated between 2019 and 2021."    }
-    }
+        name:"Ashoka Chakra",
+        img:"/Imgs/segments/peacetimeAwards/ashok.png" ,
+        description: {__html: "Ashoka Chakra is also called the wheel of duty. These 24 spokes represent the 24 qualities of a human being. In other words, they can also be called 24 Dharma Margs made for human beings. All the religious paths mentioned in the Ashoka Chakra will lead any country to the path of progress. "    }
+    },
+    {
+        id:2,
+        name:"Kirti Chakra",
+        img:"/Imgs/segments/peacetimeAwards/kirti.png" ,
+        description: {__html: "The Kirti Chakra is India's peacetime gallantry medal. This honor is given to soldiers and civilians for exceptional gallantry or manifest bravery or sacrifice. It can also be given posthumously. Preferably it comes after Mahavir Chakra. "    }
+    },
+    {
+        id:3,
+        name:"Shaurya Chakra",
+        img:"/Imgs/segments/peacetimeAwards/shaurya.png" ,
+        description: {__html: ": Shaurya Chakra is India's peacetime gallantry medal. This honor is given to soldiers and civilians for exceptional gallantry or manifest bravery or sacrifice to be given posthumously. "    }
+    },
 ];
 export default peaceTimeAwards;

@@ -1,15 +1,27 @@
 const forts=[
    {
     id:1,
-    name:'Nahargarh',
-    img:"https://www.tourmyindia.com/blog//wp-content/uploads/2021/06/Popular-Museums-in-India.jpg" ,
-    description:{__html :"The history of the origin and the growth of the Indian Museum is one of the remarkable events towards the development of heritage and culture of India.Founded in 1814 at the cradle of the Asiatic Society of Bengal (at the present building of the Asiatic Society, 1 Park Street, Kolkata), Indian Museum is the earliest and the largest multipurpose Museum not only in the Indian subcontinent but also in the Asia-Pacific region of the world. With the foundation of Indian Museum in 1814, the Museum movement started rolling in India and through the years from then, got a new fillip and great momentum. Since then, it has so magnificently developed and culminated into the fruitful existence of more than 400 museums in the country. The movement, which was started in 1814, in fact was the beginning of a significant epoch initiating the socio-cultural and scientific achievements of the country. It is otherwise considered as the beginning of the modernity and the end of mediaeval era"  }  
+    name:'Red Fort, Delhi',
+    img:"/Imgs/segments/heritage/forts/redfort.png" ,
+    description:{__html :"Red Fort, also called Lal Qalʿah, also spelled Lal Kila or Lal Qila, Mughal fort in Old Delhi, India. It was built by Shah Jahān in the mid-17th century and remains a major tourist attraction. The fort was designated a UNESCO World Heritage site in 2007.The fort’s massive red sandstone walls, which stand 75 feet (23 metres) high, enclose a complex of palaces and entertainment halls, projecting balconies, baths and indoor canals, and geometrical gardens, as well as an ornate mosque. Among the most famous structures of the complex are the Hall of Public Audience (Diwan-i-ʿAm), which has 60 red sandstone pillars supporting a flat roof, and the Hall of Private Audience (Diwan-i-Khas), which is smaller and has a pavilion of white marble."  }  
 },
 {
     id:2,
-    name: "Salar Jung Museum",
-    img:"https://www.nkrealtors.com/blog/wp-content/uploads/2017/12/Salar-Jung-Museum-730x410.jpg",
-    description:{__html :"The Salar Jung Museum was established in the year 1951 and is located on the southern bank of the River Musi in Hyderabad, Telangana State of India. The Salar Jung family is responsible for its collection of rare art objects from all over the world. The family is one of the most illustrious families in Deccan history, five of them having been prime-ministers in the erstwhile Nizam rule of Hyderabad-Deccan. Nawab Mir Yousuf Ali Khan, popularly known as Salar Jung III was appointed prime minister by Nawab Mir Osman Ali Khan Nizam VII in 1912. Salar Jung III relinquished the post of dewan or Prime Minister in November 1914 and devoted his life in enriching his treasures of art and literature. The news of his passionate love for art had spread far and wide and his ancestral palace, the Dewan Deodi was forever thronged with sellers of wares from all corners of the world. He also had agents abroad who sent him catalogues and lists from well-known antique dealers. He did not limit his purchases only to these sources but also made purchases personally during his tours abroad to Europe and the Middle Eastern countries."}
+    name: "Mehrangarh fort",
+    img:"/Imgs/segments/heritage/forts/mehrangarh.png",
+    description:{__html :"Mehrangarh Fort stands a hundred feet in splendor on a perpendicular cliff, four hundred feet above the sky line of Jodhpur. Burnished red sand stone, imposing, invincible and yet with a strange haunting beauty that beckons . Much has been written about the Citadel of the Sun, for truly, it is one of the most impressive in all Rajasthan. So colossal are its proportions that Rudyard Kipling called it “ the work of giants”. Today, it is acknowledged as one of the best preserved fort in India.Throughout India, joyful swinging is an integral part of celebrations that mark the arrival of spring or monsoon season—both associated with romance and fertility. Swings (jhula) were installed in Marwar’s garden palaces during the monsoon, when the maharaja partook in celebrations with royal women."}
+},
+{
+    id:3,
+    name: "Golconda fort",
+    img:"/Imgs/segments/heritage/forts/golconda.png",
+    description:{__html :"Mehrangarh Fort stands a hundred feet in splendor on a perpendicular cliff, four hundred feet above the sky line of Jodhpur. Burnished red sand stone, imposing, invincible and yet with a strange haunting beauty that beckons . Much has been written about the Citadel of the Sun, for truly, it is one of the most impressive in all Rajasthan. So colossal are its proportions that Rudyard Kipling called it “ the work of giants”. Today, it is acknowledged as one of the best preserved fort in India.Throughout India, joyful swinging is an integral part of celebrations that mark the arrival of spring or monsoon season—both associated with romance and fertility. Swings (jhula) were installed in Marwar’s garden palaces during the monsoon, when the maharaja partook in celebrations with royal women."}
+},
+{
+    id:4,
+    name: "Gwalior fort",
+    img:"/Imgs/segments/heritage/forts/gwalior.png",
+    description:{__html :"One of the oldest forts in Madhya Pradesh as well as in India, Gwalior Fort is known for its stunning architecture and unique history. Sprawling and offering unforgettable city views, this hill fort has been ruled by dynasties of different kingdoms over the years. It is also considered as one of the most impenetrable forts in the country. Hence, if you are passionate about different cultures and their past glories, a visit to Gwalior Fort is a must.Presently, the fort is open to anyone who wishes to be transported back in time to bask in the grandeur of medieval artefacts and impressive architectural designs. Due to its rich and intriguing history, there is a popular light and sound show organised here every evening. It is conducted at Man Mandir and offers tourists a fabulous opportunity to delve into some of the biggest events in history."}
 }
 ];
 export default forts;

@@ -2,15 +2,22 @@ const SouthIndianCusines=[
    {
     id:1,
     name:'Dosa',
-    img:"https://www.tourmyindia.com/blog//wp-content/uploads/2021/06/Popular-Museums-in-India.jpg" ,
-    path:"https://www.youtube.com/",
+    img:"/Imgs/segments/indian-cuisine/south/dosa.jpg" ,
+    path:"https://www.youtube.com/watch?v=gY1LXg8AnU4",
     description: {__html: ""}
 },
 {
     id:2,
-    name: "Salar Jung Museum",
-    img:"https://www.nkrealtors.com/blog/wp-content/uploads/2017/12/Salar-Jung-Museum-730x410.jpg",
-    path:"https://www.youtube.com/",
+    name: "Idli Sambhar",
+    img:"/Imgs/segments/indian-cuisine/south/idli.jpg",
+    path:"https://www.youtube.com/watch?v=nIoIzarlQ1k",
+    description: {__html: ""}
+},
+{
+    id:3,
+    name: "Kerala Beef Fry",
+    img:"/Imgs/segments/indian-cuisine/south/kerala.jpg",
+    path:"https://www.youtube.com/watch?v=Y1fUfPOqoeg",
     description: {__html: ""}
 }
 ];

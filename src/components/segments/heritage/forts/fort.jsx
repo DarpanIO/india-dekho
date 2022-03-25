@@ -20,7 +20,7 @@ function FortsPage() {
 
         <div className="heading-center">
     <div className="segment-heading">
-            <h1>Monuments</h1>
+            <h1>Forts</h1>
             <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
         </div>
         {forts.map(createCard)}
