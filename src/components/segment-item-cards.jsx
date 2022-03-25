@@ -10,10 +10,10 @@ function SegmentCard(props) {
     <Link to={props.path}>
       <img src={props.img} alt={props.name}></img>
       <div className="long-card-item-text">{props.name}</div>
-      {props.description.__html.length>0 && <div>{props.description.__html.substr(0,20)+"..."}</div>}
+      {props.description.__html.length>0 && <div>{props.description.__html.substr(0,25)+"..."}</div>}
 
+      {props.buylink && <a href={props.buylink} target="_blank" className="button">Buy Now</a>}
     </Link>
-      {props.buylink && <a href={props.buylink} target="_blank">Buy Now</a>}
 
     {/* </BrowserRouter> */}
 

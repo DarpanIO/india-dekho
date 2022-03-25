@@ -6,8 +6,11 @@
 .main-content-image{
     display:flex;
     justify-content: center;
-    
+    margin-top: 40px;
 }
 .main-content-image img{
     height: 270px;
+}
+h1{
+    font-size: 55px;
 }

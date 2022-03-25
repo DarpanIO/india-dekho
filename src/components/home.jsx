@@ -16,10 +16,10 @@ function Home() {
       <Heritage />
       {/* <Story /> */}
       <Cuisine />
-      <Epic />
       <Festival />
       <Sector />
       <PeaceTime />
+      <Epic />
     </div>
   );
 }

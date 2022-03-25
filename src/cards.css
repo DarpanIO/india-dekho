@@ -1,8 +1,22 @@
-.wide-card{
+.wide-card a{
     display: flex;
+    text-decoration: none;
+    color: #EF9A0E;
+    padding :10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.wide-card a:hover{
+    color: white;
+    background-color: #EF9A0E;
+}
+.wide-card-text{
+    margin: 20px;
 }
 .wide-card img{
     height: 200px;
+    width: 275px;
+    border-radius: 5px;
 }
 .long-card-items{
     display: flex;
@@ -16,6 +30,13 @@
     height: 240px;
     float: left;
     margin: 10px;
+    padding:10px;
+    border-radius: 10px;
+
+}
+.long-card-item:hover ,.long-card-item>a:hover{
+background-color: #EF9A0E;
+color: white;
 
 }
 .long-card-item img{
@@ -27,7 +48,28 @@
     color: #EF9A0E;
     text-decoration: none;
 }
+.long-card-item .button {
+    background-color: #EF9A0E;
+    color: white;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    padding:5px;
+    border-radius: 4px;
+}
+.long-card-item .button:hover {
+    background-color: white;
+    color: #EF9A0E;
+    text-decoration: none;
+    border: 2px solid #EF9A0E;
+}
 .long-card-item-text{
     display: flex;
     justify-content: center;
+    font-weight: bold;
+}
+.long-card-item-text:hover{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }

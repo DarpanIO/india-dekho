@@ -13,6 +13,7 @@ import History from "./components/segments/historyOfIndia/history.jsx";
 import Festival from "./components/segments/festivals/festival.jsx";
 import Sector from "./components/segments/sectors/sector.jsx";
 import PeaceTime from "./components/segments/peacetime-awards/peaceTime.jsx";
+import Footer from "./components/footer/footer.jsx";
 import {
   Routes,
   Route,
@@ -44,6 +45,7 @@ function App() {
       </Routes>
     </div>
 </div>
+<Footer />
 </div>
   );
 }

@@ -48,11 +48,12 @@
   background-color: white;
   min-height: 60vh;
   box-shadow: 0px 5px 4px 5px rgba(0, 0, 0, 0.267) ;
-  padding: 65px 30px;
+  padding: 90px 30px;
   clip-path: inset(0px -15px 0px -15px);
 }
 .segment-heading{
   color: rgb(255, 196, 0);
+  margin-top: 40px;
   padding: 3px 5px;
   text-align: center;
   font-family:  Ubuntu,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -62,4 +63,5 @@
 .segment-heading img{
   display:block;
   margin: auto;
+  margin-top: 20px;
 }
