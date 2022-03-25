@@ -11,7 +11,7 @@ function Home() {
       <Slider />
       <History />
       <Heritage />
-      <Story />
+      {/* <Story /> */}
       <Cuisine />
       <Epic />
     </div>
