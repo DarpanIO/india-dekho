@@ -23,3 +23,8 @@
     height: 200px;
     /* height: -webkit-fill-available; */
 }
+.long-card-item a {
+    color: #EF9A0E;
+    text-decoration: none;
+
+}
