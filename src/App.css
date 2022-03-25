@@ -48,7 +48,7 @@
   background-color: white;
   min-height: 60vh;
   box-shadow: 0px 5px 4px 5px rgba(0, 0, 0, 0.267) ;
-  padding: 60px 30px;
+  padding: 65px 30px;
   clip-path: inset(0px -15px 0px -15px);
 }
 .segment-heading{
