@@ -4,5 +4,13 @@
     align-items: center;
 }
 .main-content-image{
-    width:70%
+    display:flex;
+    justify-content: center;
+    
+}
+.main-content-image img{
+    width:70%;
+
+
+
 }
