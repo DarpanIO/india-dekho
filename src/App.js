@@ -10,6 +10,7 @@ import Heritage from "./components/segments/heritage/heritage.jsx";
 import Cuisine from "./components/segments/cuisines/cuisine.jsx";
 import Epic from "./components/segments/Epics/epic.jsx";
 import History from "./components/segments/historyOfIndia/history.jsx";
+import Festival from "./components/segments/festivals/festival.jsx";
 import {
   Routes,
   Route,
@@ -34,6 +35,7 @@ function App() {
         <Route exact path="/cuisines/*" element={<Cuisine />} />
         <Route exact path="/epics/*" element={<Epic />} />
         <Route exact path="/histories/*" element={<History />} />
+        <Route exact path="/festivals/*" element={<Festival />} />
       </Routes>
     </div>
 </div>

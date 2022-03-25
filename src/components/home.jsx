@@ -5,6 +5,7 @@ import Epic from "./segments/Epics/epic";
 import Cuisine from "./segments/cuisines/cuisine";
 import Slider from "./Slider/Slider";
 import History from "./segments/historyOfIndia/history";
+import Festival from "./segments/festivals/festival";
 function Home() {
   return (
     <div>
@@ -14,6 +15,7 @@ function Home() {
       {/* <Story /> */}
       <Cuisine />
       <Epic />
+      <Festival />
     </div>
   );
 }
