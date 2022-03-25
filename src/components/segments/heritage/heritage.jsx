@@ -21,7 +21,7 @@ function HeritageHome(){
 return(
     <div>
     <div className="segment-heading">
-       Our Heitage
+       Our Heritage
         <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
     </div>
     <div className="long-card-items">

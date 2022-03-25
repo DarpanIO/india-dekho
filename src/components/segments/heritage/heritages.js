@@ -19,13 +19,13 @@ const heritages=[
         img:"/Imgs/segments/heritage/museums/img17.jpg" ,
         description: {__html: ""},
         path:"/heritages/museum"      
-    },
-    {
-        id:4,
-        name: "Rivers & Peaks",
-        img:"",
-        description: {__html: ""},
-        path:"/heritages/rivers&peaks"
     }
+    // {
+    //     id:4,
+    //     name: "Rivers & Peaks",
+    //     img:"",
+    //     description: {__html: ""},
+    //     path:"/heritages/rivers&peaks"
+    // }
 ];
 export default heritages;
