@@ -1,9 +1,8 @@
 import React from "react";
-// import './culture.css';
 import '../../../cards.css'
 import '../../../App.css'
 import SegmentCard from "../../segment-item-cards";
-import cultures from "./cultures";
+import heritages from "./heritages";
 import Museum from "./museum/museum";
 import Monument from "./monument/monument";
 import { Routes, Route } from "react-router-dom";
@@ -17,26 +16,26 @@ function createCard(card){
       description={card.description}
     /> ;
     }
-function CultureHome(){
+function HeritageHome(){
 return(
     <div>
     <div className="segment-heading">
-       Our Culture
+       Our Heitage
         <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
     </div>
     <div className="long-card-items">
-        {cultures.map(createCard)}
+        {heritages.map(createCard)}
     </div>
 </div>
 );
 }
-function Culture(){
+function Heritage(){
     return(
 <Routes>
-    <Route exact path="/" element={<CultureHome />} />
+    <Route exact path="/" element={<HeritageHome />} />
     <Route exact path="/museum/*" element={<Museum />} />
     <Route exact path="/monuments/*" element={<Monument />} />
 </Routes>
     );
 }
-export default Culture;
+export default Heritage;

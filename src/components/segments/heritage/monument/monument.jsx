@@ -12,7 +12,7 @@ function createCard(card){
       img={process.env.PUBLIC_URL + card.img}
       name={card.name}
       description={card.description}
-      path={"/culture/monuments/"+card.id}
+      path={"/heritages/monuments/"+card.id}
     /> ;
     }
 function MonumentsPage() {

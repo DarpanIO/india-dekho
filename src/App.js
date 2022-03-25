@@ -6,7 +6,7 @@ import Blog from "./components/Blog/Blog.jsx";
 import IndianStates from "./components/indian-states/indian-states.jsx";
 import AboutUs from "./components/about-us/about-us.jsx";
 import Story from "./components/segments/stories/story.jsx";
-import Culture from "./components/segments/culture/culture.jsx";
+import Heritage from "./components/segments/heritage/heritage.jsx";
 import Cuisine from "./components/segments/cuisines/cuisine.jsx";
 import Epic from "./components/segments/Epics/epic.jsx";
 import {
@@ -28,7 +28,7 @@ function App() {
         <Route exact path="/indian-states" element={<IndianStates />} />
         <Route exact path="/about-us" element={<AboutUs />} />
         <Route exact path="/" element={<Navigate to="/home" />} />
-        <Route exact path="/culture/*" element={<Culture />} />
+        <Route exact path="/heritages/*" element={<Heritage />} />
         <Route exact path="/stories/*" element={<Story />} />
         <Route exact path="/cuisines/*" element={<Cuisine />} />
         <Route exact path="/epics/*" element={<Epic />} />

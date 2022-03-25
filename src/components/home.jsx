@@ -1,5 +1,5 @@
 import React from "react";
-import Culture from "./segments/culture/culture";
+import Heritage from "./segments/heritage/heritage";
 import Story from "./segments/stories/story";
 import Epic from "./segments/Epics/epic";
 import Cuisine from "./segments/cuisines/cuisine";
@@ -9,7 +9,7 @@ function Home() {
     <div>
       <Slider />
 
-      <Culture />
+      <Heritage />
       <Story />
       <Cuisine />
       <Epic />
