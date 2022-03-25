@@ -26,5 +26,8 @@
 .long-card-item a {
     color: #EF9A0E;
     text-decoration: none;
-
+}
+.long-card-item-text{
+    display: flex;
+    justify-content: center;
 }

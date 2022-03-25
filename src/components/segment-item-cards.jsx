@@ -9,7 +9,7 @@ function SegmentCard(props) {
 
     <Link to={props.path}>
       <img src={props.img} alt={props.name}></img>
-      <div>{props.name}</div>
+      <div className="long-card-item-text">{props.name}</div>
       {props.description.__html.length>0 && <div>{props.description.__html.substr(0,20)+"..."}</div>}
 
     </Link>
