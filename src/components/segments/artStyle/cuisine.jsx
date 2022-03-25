@@ -3,12 +3,10 @@ import React from "react";
 import '../../../cards.css'
 import '../../../App.css'
 import SegmentCard from "../../segment-item-cards";
-import cuisines from "./cuisines";
+import cuisines from "./artStyles";
 import NorthIndian from "./north-indian/north-indian";
 import SouthIndian from "./south-indian/south-indian";
 import { Routes, Route } from "react-router-dom";
-import EastIndian from "./east-indian/east-indian";
-import WestIndian from "./west-indian/west-indian";
 function createCard(card){
 //   console.log(card);
     return <SegmentCard 
@@ -38,8 +36,6 @@ function Cuisine(){
     <Route exact path="/" element={<CuisinesHome />} />
     <Route exact path="/north-indian/" element={<NorthIndian/>} />
     <Route exact path="/south-indian/" element={<SouthIndian/>} />
-    <Route exact path="/east-indian/" element={<EastIndian/>} />
-    <Route exact path="/west-indian/" element={<WestIndian/>} />
 </Routes>
     );
 }

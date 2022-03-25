@@ -3,7 +3,7 @@ const NorthIndianCusines=[
     id:1,
     name:'Paratha with Curd',
     img:"https://www.tourmyindia.com/blog//wp-content/uploads/2021/06/Popular-Museums-in-India.jpg" ,
-    path:"https://www.youtube.com/",
+    path:"https://www.w3schools.com/tags/att_a_target.asp",
     description: {__html: ""}
 },
 {

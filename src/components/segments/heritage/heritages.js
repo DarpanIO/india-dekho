@@ -2,7 +2,7 @@ const heritages=[
     {
         id:1,
         name: "Forts",
-        img:"/Imgs/segments/heritage/monuments/monumentsLogo.jpeg",
+        img:"/Imgs/segments/heritage/forts/img16.jpg",
         description: {__html: ""},
         path:"/heritages/forts"
     },
@@ -16,14 +16,14 @@ const heritages=[
     {
         id:3,
         name:"Museums",
-        img:"https://www.tourmyindia.com/blog//wp-content/uploads/2021/06/Popular-Museums-in-India.jpg" ,
+        img:"/Imgs/segments/heritage/museums/img17.jpg" ,
         description: {__html: ""},
         path:"/heritages/museum"      
     },
     {
         id:4,
         name: "Rivers & Peaks",
-        img:"https://www.indianeagle.com/travelbeats//wp-content/uploads/2013/10/soorya-dance-festival-overview.jpg?w=547",
+        img:"",
         description: {__html: ""},
         path:"/heritages/rivers&peaks"
     }

@@ -9,6 +9,7 @@ import Story from "./components/segments/stories/story.jsx";
 import Heritage from "./components/segments/heritage/heritage.jsx";
 import Cuisine from "./components/segments/cuisines/cuisine.jsx";
 import Epic from "./components/segments/Epics/epic.jsx";
+import History from "./components/segments/historyOfIndia/history.jsx";
 import {
   Routes,
   Route,
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/stories/*" element={<Story />} />
         <Route exact path="/cuisines/*" element={<Cuisine />} />
         <Route exact path="/epics/*" element={<Epic />} />
+        <Route exact path="/histories/*" element={<History />} />
       </Routes>
     </div>
 </div>

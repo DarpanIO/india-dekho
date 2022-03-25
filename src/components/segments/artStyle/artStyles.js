@@ -16,16 +16,16 @@ const cuisines=[
     {
         id:3,
         name:"East Indian",
-        img:"/Imgs/segments/indian-cuisine/east/img13.jpg" ,
+        img:"/Imgs/segments/indian-cuisine/east/img15.jpg" ,
         description: {__html: ""},
-        path:"/cuisines/east-indian"      
+        path:"/cuisines/south-indian"      
     },
     {
         id:4,
         name:"West Indian",
-        img:"/Imgs/segments/indian-cuisine/west/img14.jpg" ,
+        img:"/Imgs/segments/indian-cuisine/south/img15.jpg" ,
         description: {__html: ""},
-        path:"/cuisines/west-indian"      
+        path:"/cuisines/south-indian"      
     },
 ];
 export default cuisines;

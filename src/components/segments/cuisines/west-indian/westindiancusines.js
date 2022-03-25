@@ -1,4 +1,4 @@
-const NorthIndianCusines=[
+const WestIndianCusines=[
    {
     id:1,
     name:'Paratha with Curd',
@@ -10,8 +10,8 @@ const NorthIndianCusines=[
     id:2,
     name: "Salar Jung Museum",
     img:"https://www.nkrealtors.com/blog/wp-content/uploads/2017/12/Salar-Jung-Museum-730x410.jpg",
-    path:"https://www.w3schools.com/tags/att_a_target.asp",
+    path:"https://www.youtube.com/",
     description: {__html: ""}
 }
 ];
-export default NorthIndianCusines;
+export default WestIndianCusines;
