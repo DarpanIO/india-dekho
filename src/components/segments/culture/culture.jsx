@@ -5,6 +5,7 @@ import '../../../App.css'
 import SegmentCard from "../../segment-item-cards";
 import cultures from "./cultures";
 import Museum from "./museum/museum";
+import Monument from "./monument/monument";
 import { Routes, Route } from "react-router-dom";
 function createCard(card){
 //   console.log(card);
@@ -34,6 +35,7 @@ function Culture(){
 <Routes>
     <Route exact path="/" element={<CultureHome />} />
     <Route exact path="/museum/*" element={<Museum />} />
+    <Route exact path="/monuments/*" element={<Monument />} />
 </Routes>
     );
 }

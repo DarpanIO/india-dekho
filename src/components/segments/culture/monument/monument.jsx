@@ -2,8 +2,8 @@ import React from "react";
 import { Routes,Route } from "react-router-dom";
 import '../../../../content.css';
 import SubSegmentCard from "../../../sub-segments-item-cards";
-import museums from "./museums";
-import MuseumArticleContent from "./museumArticleContent";
+import monuments from "./monuments";
+import MonumentArticleContent from "./monumentsArticleContent";
 
 function createCard(card){
     console.log(card);
@@ -12,34 +12,34 @@ function createCard(card){
       img={process.env.PUBLIC_URL + card.img}
       name={card.name}
       description={card.description}
-      path={"/culture/museum/"+card.id}
+      path={"/culture/monuments/"+card.id}
     /> ;
     }
-function MuseumsPage() {
+function MonumentsPage() {
     return(
 
         <div className="heading-center">
     <div className="segment-heading">
-            <h1>Museums</h1>
+            <h1>Monuments</h1>
             <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
         </div>
-        {museums.map(createCard)}
+        {monuments.map(createCard)}
 
         </div>
         );
 }
-    function Museum() {
+    function Monument() {
     return (
 
 
         <div className="heading-center">
             
             <Routes>
-            <Route exact path="/" element={<MuseumsPage />} />
-            <Route exact path=":id" element={<MuseumArticleContent />} />
+            <Route exact path="/" element={<MonumentsPage />} />
+            <Route exact path=":id" element={<MonumentArticleContent />} />
             </Routes>
 
         </div>
     );
 }
-export default Museum;
+export default Monument;
