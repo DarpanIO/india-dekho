@@ -2,9 +2,10 @@ import React from "react";
 // import './culture.css';
 import '../../../cards.css'
 import '../../../App.css'
-import SegmentCard from "../../segment-item-cards";
-import stories from "./stories";
+import SegmentCard from "../segment-item-cards";
+import states from "./states";
 import StoriesArticle from "./storiesArticle";
+import SegmentCard from "../segment-item-cards";
 import { Routes, Route } from "react-router-dom";
 function createCard(card){
 //   console.log(card);
@@ -16,7 +17,7 @@ function createCard(card){
       description={card.description}
     /> ;
     }
-function StoryHome(){
+function StatesHome(){
 return(
     <div>
     <div className="segment-heading">

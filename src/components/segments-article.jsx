@@ -9,6 +9,7 @@ return(
             <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
         </div>
     <div className="main-content-image"><img src={props.img} alt={props.name}/></div>
+    <div></div>
     <div className="wide-card-text">
     {/* <h5>{props.description}</h5> */}
     <div dangerouslySetInnerHTML={props.description} className="article-description"></div>
