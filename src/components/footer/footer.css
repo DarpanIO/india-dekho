@@ -1,8 +1,27 @@
 .team-name{
     height: 7vh;
     display: flex;
+
     justify-content: center;
     align-items: center;
     background-color: orange;
     color: white;
+}
+.footer{
+    height: 21vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: orange;
+    color: white;
+}
+.Social-Media img{
+    height:25px;
+    padding : 5px;
+}
+.Social-Media{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:5px;
 }

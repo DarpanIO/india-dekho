@@ -20,7 +20,7 @@ function PeaceTimeHome(){
 return(
     <div>
     <div className="segment-heading">
-       Sectors Of Indian Economy
+       Peace Time Awards
         <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
     </div>
     <div className="long-card-items">
