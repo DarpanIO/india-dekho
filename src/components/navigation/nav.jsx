@@ -14,7 +14,7 @@ function Nav() {
     <ul type= 'none'>
     <li><Link to="/home">Home</Link></li>
     {/* <li><Link to="/blog">Blog</Link></li> */}
-    {/* <li><Link to="/indian-states">Indian States</Link></li> */}
+    <li><Link to="/states">Indian States</Link></li>
     <li><Link to="/about-us">About Us</Link></li>
     <input type="text" placeholder="Explore India.."></input>
 

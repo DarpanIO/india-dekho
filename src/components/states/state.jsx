@@ -1,11 +1,10 @@
 import React from "react";
 // import './culture.css';
-import '../../../cards.css'
-import '../../../App.css'
+import '../../cards.css'
+import '../../App.css'
 import SegmentCard from "../segment-item-cards";
 import states from "./states";
-import StoriesArticle from "./storiesArticle";
-import SegmentCard from "../segment-item-cards";
+import StatesArticle from "./statesArticle";
 import { Routes, Route } from "react-router-dom";
 function createCard(card){
 //   console.log(card);
@@ -13,7 +12,7 @@ function createCard(card){
       key={card.id}
       img={card.img}
       name={card.name}
-      path={"/stories/"+card.id}
+      path={"/states/"+card.id}
       description={card.description}
     /> ;
     }
@@ -21,21 +20,21 @@ function StatesHome(){
 return(
     <div>
     <div className="segment-heading">
-       Our Stories
+       States
         <img src={process.env.PUBLIC_URL + `/Imgs/divider.png`} alt=""/>
     </div>
     <div className="long-card-items">
-        {stories.map(createCard)}
+        {states.map(createCard)}
     </div>
 </div>
 );
 }
-function Story(){
+function State(){
     return(
 <Routes>
-    <Route exact path="/" element={<StoryHome />} />
-    <Route exact path=":id" element={<StoriesArticle />} />
+    <Route exact path="/" element={<StatesHome />} />
+    <Route exact path=":id" element={<StatesArticle />} />
 </Routes>
     );
 }
-export default Story;
+export default State;

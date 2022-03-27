@@ -13,6 +13,7 @@ import History from "./components/segments/historyOfIndia/history.jsx";
 import Festival from "./components/segments/festivals/festival.jsx";
 import Sector from "./components/segments/sectors/sector.jsx";
 import PeaceTime from "./components/segments/peacetime-awards/peaceTime.jsx";
+import State from "./components/states/state.jsx";
 import Footer from "./components/footer/footer.jsx";
 import {
   Routes,
@@ -30,7 +31,7 @@ function App() {
       <Routes>
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/blog" element={<Blog />} />
-        <Route exact path="/indian-states" element={<IndianStates />} />
+        <Route exact path="/states/*" element={<State />} />
         <Route exact path="/about-us" element={<AboutUs />} />
         <Route exact path="/" element={<Navigate to="/home" />} />
         <Route exact path="/heritages/*" element={<Heritage />} />
